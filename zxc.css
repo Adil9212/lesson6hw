@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.postcard {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.card {
+    width: calc(33.3333% - 20px);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.image {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 16px;
+}
